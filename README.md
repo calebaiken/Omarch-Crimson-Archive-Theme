@@ -29,11 +29,12 @@ Browser-based download is an alternative for GitHub accounts that use multifacto
 
 1. Sign in to GitHub in a browser and complete the MFA challenge.
 2. Open the [Crimson Archive repository](https://github.com/calebaiken/Omarch-Crimson-Archive-Theme), select **Code → Download ZIP**, and extract the archive on the Omarchy system.
-3. Set `source_dir` to the extracted folder. GitHub names the folder similarly to `Omarch-Crimson-Archive-Theme-main`; the path below can be adjusted to match the extraction location.
-4. Copy the theme files into Omarchy and activate the theme:
+3. Open a terminal in the extracted folder (many file managers provide **Open in Terminal** from the folder's context menu), or change to that folder in an existing terminal.
+4. Confirm the terminal is in the theme folder, then copy the files into Omarchy and activate the theme:
 
    ```bash
-   source_dir="$HOME/Downloads/Omarch-Crimson-Archive-Theme-main"
+   source_dir="$PWD"
+   test -f "$source_dir/colors.toml" || { echo "Run this from the extracted theme folder."; exit 1; }
    theme_dir="$HOME/.config/omarchy/themes/crimson-archive"
    mkdir -p "$theme_dir"
    cp -a "$source_dir/colors.toml" "$source_dir/backgrounds" "$source_dir/variants" \
