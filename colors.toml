@@ -1,0 +1,42 @@
+# CRIMSON ARCHIVE / OMARCHY — Obsidian edition
+# v1.0 · derived from Crimson Archive Master Brand Tokens v3.0
+# The canonical Omarchy keys are used; no shell-executable theme files.
+mode = "dark"
+
+# The identity is crimson; gold is reserved for focused and structured detail.
+accent = "#E19BAD"
+selection = "#4B2B39"
+muted = "#8E828C"
+
+# Background and four-step warm-neutral ramp.
+background = "#121115"
+dark_background = "#0C0B0F"
+darker_background = "#08070A"
+lighter_background = "#1E1B23"
+
+foreground = "#F3EEE6"
+dark_foreground = "#BEB3B4"
+light_foreground = "#FFFCF6"
+bright_foreground = "#FFFCF6"
+
+# ANSI semantic colors: legibility first, restrained brand accents second.
+red = "#F09FA9"
+yellow = "#E6BE7A"
+orange = "#D9A37F"
+green = "#83BEA0"
+cyan = "#9DCECB"
+blue = "#A5C7DC"
+magenta = "#C4A3FF"  # optional ultraviolet only in ANSI-magenta role
+brown = "#A88969"
+
+bright_red = "#FFC0C5"
+bright_yellow = "#F5D5A1"
+bright_green = "#ADDEC5"
+bright_cyan = "#B8E2DB"
+bright_blue = "#C7DEEC"
+bright_magenta = "#D6C2FF"
+
+# Supported in current Omarchy: a restrained window-focus border.
+# Fall back to "#E19BAD" if using a release without gradient support.
+hyprland_active_border = "rgba(e19badff) rgba(e0ba76ff) 65deg"
+hyprland_inactive_border = "rgba(4a404b99)"

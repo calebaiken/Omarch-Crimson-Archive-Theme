@@ -1,0 +1,27 @@
+# Isolated shell control overrides: warm surfaces, visible gold keyboard focus.
+normal-color        = "#F3EEE6"
+normal-fill-alpha   = 0.04
+normal-border       = "#4A404B"
+normal-border-width = 1
+normal-border-alpha = 1.0
+
+hover-cursor-color        = "#F3EEE6"
+hover-cursor-fill-alpha   = 0.09
+hover-cursor-border       = "#E19BAD"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.82
+
+focus-color        = "#FFFCF6"
+focus-fill-alpha   = 0.10
+focus-border       = "#E0BA76"
+focus-border-width = 2
+focus-border-alpha = 1.0
+
+selected-color        = "#FFFCF6"
+selected-fill-alpha   = 0.16
+selected-border       = "#E19BAD"
+selected-border-width = "1 1 1 3"
+selected-border-alpha = 1.0
+
+pressed-fill-alpha   = 0.22
+selection-fill-alpha = 0.35

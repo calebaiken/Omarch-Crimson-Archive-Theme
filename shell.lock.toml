@@ -1,0 +1,12 @@
+# Ensure auth/error states are visually distinct.
+background       = "#1E1B23"
+background-alpha = 0.90
+text             = "#FFFCF6"
+placeholder      = "#BEB3B4"
+text-error       = "#F09FA9"
+border           = "#4A404B"
+border-active    = "#E0BA76"
+border-error     = "#F09FA9"
+border-alpha     = 1.0
+selection        = "#E19BAD"
+selection-alpha  = 0.45

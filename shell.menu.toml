@@ -1,0 +1,15 @@
+# Controlled crimson selection with gold panel edge; no overly bright fill.
+background                = "#1E1B23"
+background-alpha          = 0.98
+text                      = "#F3EEE6"
+border                    = "#4A404B"
+border-alpha              = 1.0
+border-width              = 1
+scrim                     = "#121115"
+scrim-alpha               = 0.60
+selected-background       = "#4B2B39"
+selected-background-alpha = 1.0
+selected-text             = "#FFFCF6"
+selected-border           = "#E19BAD"
+selected-border-alpha     = 1.0
+selected-border-width     = "1 1 1 3"

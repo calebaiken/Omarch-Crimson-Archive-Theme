@@ -1,0 +1,36 @@
+# CRIMSON ARCHIVE / OMARCHY — Parchment edition (optional manual variant)
+# This file is intentionally not active in the primary installed dark theme.
+mode = "light"
+
+accent = "#7D2037"
+selection = "#E6D4D8"
+muted = "#5F5759"
+
+background = "#F5F0E6"
+dark_background = "#ECE4D7"
+darker_background = "#D9CFBF"
+lighter_background = "#FFFCF6"
+
+foreground = "#211B1E"
+dark_foreground = "#5F5759"
+light_foreground = "#211B1E"
+bright_foreground = "#211B1E"
+
+red = "#9A2939"
+yellow = "#85551B"
+orange = "#975623"
+green = "#2F684E"
+cyan = "#325F7C"
+blue = "#325F7C"
+magenta = "#6D28D9"
+brown = "#75531C"
+
+bright_red = "#7D2037"
+bright_yellow = "#75531C"
+bright_green = "#23573F"
+bright_cyan = "#285471"
+bright_blue = "#274E70"
+bright_magenta = "#5B21B6"
+
+hyprland_active_border = "rgba(7d2037ff) rgba(b18a43ff) 65deg"
+hyprland_inactive_border = "rgba(d9cfbfff)"
