@@ -56,7 +56,7 @@ On Omarchy versions without `omarchy theme <command>`, the corresponding `omarch
 - `shell.menu.toml`, `shell.launcher.toml` — obsidian surfaces and selected-row styling.
 - `shell.notifications.toml`, `shell.lock.toml` — muted borders, warm ivory text, and clear authentication and alert cues.
 - `icons.theme` — Yaru-red icon variant. Remove this file when Yaru-red is not installed.
-- `backgrounds/` — three optimized 16:9 wallpapers derived from the supplied brand assets and original line work.
+- `backgrounds/` — three optimized 16:9 wallpapers with a dimensional, shadowed astrolabe emblem in cosmic, instrument-room, and parchment treatments.
 - `unlock.png`, `preview-unlock.png` — compact identity imagery.
 - `preview.png` — illustrative theme composition, not a live desktop screenshot.
 

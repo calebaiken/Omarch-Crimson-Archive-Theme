@@ -10,7 +10,7 @@
 - Selection text against selection fill; distinct keyboard focus vs error color
 - Theme file naming and presence; static allow-list of shell tokens from the Omarchy upstream 2026 shell template
 - Preview 16:9 and 3 wallpapers 2560×1440, WebP validity and sane file size
-- Transparent unlock emblem; supplied source artwork checksums and deterministic source manifest
+- Transparent unlock emblem; supplied artwork checksums and checksums for the generated wallpaper masters
 
 ## Human and runtime checks — **required on Omarchy**
 
