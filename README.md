@@ -21,6 +21,29 @@ omarchy theme set crimson-archive
 omarchy theme current
 ```
 
+### Manual installation with GitHub MFA
+
+If GitHub requires multifactor authentication, download the theme through your signed-in browser instead of trying to use your GitHub password in a terminal:
+
+1. Sign in to GitHub in your browser and complete your MFA prompt.
+2. Open the [Crimson Archive repository](https://github.com/calebaiken/Omarch-Crimson-Archive-Theme), select **Code → Download ZIP**, and extract the ZIP on your Omarchy computer.
+3. In an Omarchy terminal, set `source_dir` to the extracted folder. GitHub names it similar to `Omarch-Crimson-Archive-Theme-main`; adjust the path if your browser saved it elsewhere.
+4. Copy the theme files into Omarchy and select the theme:
+
+   ```bash
+   source_dir="$HOME/Downloads/Omarch-Crimson-Archive-Theme-main"
+   theme_dir="$HOME/.config/omarchy/themes/crimson-archive"
+   mkdir -p "$theme_dir"
+   cp -a "$source_dir/colors.toml" "$source_dir/backgrounds" "$source_dir/variants" \
+     "$source_dir/preview.png" "$source_dir/icons.theme" \
+     "$source_dir"/shell.*.toml "$source_dir/unlock.png" \
+     "$source_dir/preview-unlock.png" "$theme_dir/"
+   omarchy theme set crimson-archive
+   omarchy theme current
+   ```
+
+This uses your browser's GitHub sign-in and MFA session; it does not require entering your GitHub password or creating a personal access token in the terminal. If you already have a local checkout, use the same copy commands with `source_dir` set to that checkout.
+
 For older Omarchy versions where `omarchy theme <command>` is unavailable, use the `omarchy-theme-*` commands exposed by your installation. If needed, install manually from a local checkout:
 
 ```bash
