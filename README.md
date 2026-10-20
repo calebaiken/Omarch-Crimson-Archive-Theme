@@ -47,7 +47,7 @@ Browser-based download is an alternative for GitHub accounts that use multifacto
 
 GitHub authentication and MFA are handled by the browser session; no GitHub password or personal access token is required in the terminal. For an existing local checkout, set `source_dir` to the checkout path and use the same copy commands.
 
-On Omarchy versions without `omarchy theme <command>`, the corresponding `omarchy-theme-*` commands can be used instead.
+On Omarchy versions without `omarchy theme <command>`, use the standalone `omarchy-theme-*` commands instead (for example, `omarchy-theme-set crimson-archive`).
 
 ## Theme components
 
@@ -74,6 +74,12 @@ Setting `crimson-archive` applies a wallpaper from the theme. To choose among th
 
 ```bash
 omarchy background
+```
+
+On older Omarchy versions, use:
+
+```bash
+omarchy-theme-bg-switcher
 ```
 
 If the picker does not show the Crimson Archive images, confirm that the installed theme contains the wallpaper files, then reapply the theme:
