@@ -70,7 +70,18 @@ Omarchy filters executable configuration files during URL installation. This the
 | `02-instrument-room.webp` | Instrument | Minimal technical background for busy windows |
 | `03-parchment-study.webp` | Archive | Warm light background for daytime or reading |
 
-Wallpapers can be selected through Omarchy's wallpaper chooser. Changing the wallpaper does not switch terminal or shell color modes automatically.
+Setting `crimson-archive` applies a wallpaper from the theme. To choose among the included backgrounds, open Omarchy's wallpaper picker:
+
+```bash
+omarchy background
+```
+
+If the picker does not show the Crimson Archive images, confirm that the installed theme contains the wallpaper files, then reapply the theme:
+
+```bash
+ls -l "$HOME/.config/omarchy/themes/crimson-archive/backgrounds"
+omarchy theme set crimson-archive
+```
 
 ## Optional parchment variant
 
